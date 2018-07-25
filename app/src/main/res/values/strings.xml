@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="playlistbutton">Your Playlist</string>
+    <string name="search">Search Your Music</string>
+    <string name="offline">Downloaded Music</string>
+    <string name="home">Welcome to the home screen!\n feel free to pick an option from the three activities\nYou can access your saved playlist or find more music to your liking and even listen to music you\'ve downloaded without the use of internet </string>
+    <string name="playlistDescript">This is the playlist Activity\nHere is where all your favorite songs are stored in your organized list\nYou have the option to add more playlist to your satisfaction</string>
+    <string name="playlistOne">Smooth R&amp;B</string>
+    <string name="searchdiscript">This is the search activity\n You can search your favorite songs by your favorite artist here!</string>
+    <string name="searchHint">Enter the song or the name of the artist here</string>
+    <string name="downloadeddescript">This is the downloaded activity\nYou can listen to the your songs you have downloaded beforehand without the use of the internet click on the button to download more music</string>
+    <string name="buttontoredirect">Search for more music</string>
+    <string name="firstdownload">Isn\'t she lovely by stevie wonder</string>
+    <string name="nowplayingdescript">Now playing screen\nAn implicit intent is used for the media player which displays which song is playing"</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smooth"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayer.Search">
+
+    <TextView
+        style="@style/textDescript"
+        android:text="@string/searchdiscript" />
+
+    <EditText
+        style="@style/searchBar"
+        android:drawableLeft="@drawable/ic_search_black_18dp"
+        android:drawableStart="@drawable/ic_search_black_18dp"
+        android:hint="@string/searchHint" />
+
+</LinearLayout>

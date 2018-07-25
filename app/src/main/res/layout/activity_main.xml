@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smooth"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayer.MainActivity">
+
+
+    <TextView
+        style="@style/textDescript"
+        android:text="@string/home" />
+
+    <Button
+        android:id="@+id/playlist"
+        style="@style/buttonstyles"
+        android:text="@string/playlistbutton" />
+
+
+    <Button
+        android:id="@+id/artist"
+        style="@style/buttonstyles"
+        android:text="@string/search" />
+
+
+    <Button
+        android:id="@+id/download"
+        style="@style/buttonstyles"
+        android:text="@string/offline" />
+</LinearLayout>

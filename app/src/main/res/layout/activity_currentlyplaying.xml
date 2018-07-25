@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smooth"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayer.Currentlyplaying">
+
+    <TextView
+        style="@style/textDescript"
+        android:text="@string/nowplayingdescript" />
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp" />
+
+    <LinearLayout style="@style/playbuttonlayout">
+
+        <ImageView
+
+            style="@style/playbuttons"
+            android:src="@drawable/ic_fast_rewind_black_48dp" />
+
+        <ImageView
+
+            style="@style/playbuttons"
+            android:src="@drawable/ic_play_arrow_black_48dp" />
+
+        <ImageView
+
+            style="@style/playbuttons"
+            android:src="@drawable/ic_fast_forward_black_48dp" />
+    </LinearLayout>
+</RelativeLayout>
